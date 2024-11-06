@@ -1,5 +1,5 @@
 # Basic Terraform Project
-Deploys an AWS pipeline for building and deploying a container to an ECS cluster fronted by a load balancer. Below are the steps to deploy the project.
+Deploys an AWS pipeline for building and deploying a container to an ECS cluster fronted by a load balancer. I will eventually use this project to spin up infrastructure for bugtracker. Below are the steps to deploy the project.
 
 
 # Usage
@@ -17,8 +17,7 @@ terraform destroy
 ```
 
 # TODO
-- Move hardcoded values to variables.tf file
-    - GitHub repository
-- ~ Break up main.tf into multiple files ~ 
-- Rename resources
-- Review policies for mistakes and principal of least privilege
+- [ ] Move hardcoded values to variables.tf file
+- [X] Break up main.tf into multiple files
+- [ ] Refactor resources
+- [ ] Review policies for mistakes to ensure nothing is overly permissioned
